@@ -3,8 +3,8 @@ var hotAirBallon,hotAirBallonImg;
 var database,positions;
 
 function preload(){
-  hotAirBallonImg=loadAnimation("Hot AirBallon-02.png","HotAirBallon-03.png","HotAirBallon-04.png");
-  bgImg=loadImage("HotAirBallon-01.png");
+  hotAirBallonImg=loadAnimation("Images/HotAirBallon-02.png","Images/HotAirBallon-03.png","Images/HotAirBallon-04.png");
+  bgImg=loadImage("Images/HotAirBallon-01.png");
 }
 function setup() {
   createCanvas(1350,600);
